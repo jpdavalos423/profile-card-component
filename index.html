@@ -24,19 +24,33 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <main class="card-wrapper">
+      <div class="profile-background">
+        <img src="./images/bg-pattern-card.svg" alt="card background" />
+      </div>
       <div class="profile-header">
         <img src="./images/image-victor.jpg" alt="victor image" />
         <h1>Victor Crest <span>26</span></h1>
         <h2>London</h2>
       </div>
-
+      <hr />
       <div class="profile-footer">
-        <div class="stat">80K Followers</div>
-        <div class="stat">803K Likes</div>
-        <div class="stat">1.4K Photos</div>
+        <div class="stat">
+          <p>80K</p>
+          <span>Followers</span>
+        </div>
+        <div class="stat">
+          <p>803K</p>
+          <span>Likes</span>
+        </div>
+        <div class="stat">
+          <p>1.4K</p>
+          <span>Photos</span>
+        </div>
       </div>
     </main>
     <footer>
@@ -44,7 +58,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">JP Davalos</a>.
       </div>
     </footer>
   </body>
